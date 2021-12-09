@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "337060867455",
+    "project_id": "spotifyclonepl",
+    "storage_bucket": "spotifyclonepl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337060867455:android:b444f08da5aef341137e4a",
+        "android_client_info": {
+          "package_name": "com.akshay.spotifyclonemvvmplyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337060867455-ps1ungtj0gqlvuq8s370stgqk1mr42c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-QHjDS4fbMtFey8WWgJhVqSpwFqwzXRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337060867455-ps1ungtj0gqlvuq8s370stgqk1mr42c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337060867455:android:f8dc1d467b3a0249137e4a",
+        "android_client_info": {
+          "package_name": "com.example.spotifyclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337060867455-8p9k26s0usjjm4sk437uu2o6dpoko771.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spotifyclone",
+            "certificate_hash": "042687d06ad82ecb6df3b31ac7647e889f0a4fc4"
+          }
+        },
+        {
+          "client_id": "337060867455-ps1ungtj0gqlvuq8s370stgqk1mr42c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-QHjDS4fbMtFey8WWgJhVqSpwFqwzXRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337060867455-ps1ungtj0gqlvuq8s370stgqk1mr42c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

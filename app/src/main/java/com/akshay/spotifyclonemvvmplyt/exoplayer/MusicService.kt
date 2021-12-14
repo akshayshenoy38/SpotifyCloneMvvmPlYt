@@ -23,11 +23,11 @@ private const val SERVICE_TAG = "MusicService"
 class MusicService:MediaBrowserServiceCompat() {
 
     @Inject
-    lateinit var dataSourceFactory: DefaultDataSource.Factory
+    lateinit var dataSourceFactory: DefaultDataSourceFactory
 
 
     @Inject
-    lateinit var exoPlayer: ExoPlayer
+    lateinit var exoPlayer: SimpleExoPlayer
 
 
     private val serviceJob = Job()
@@ -35,6 +35,8 @@ class MusicService:MediaBrowserServiceCompat() {
 
     private lateinit var mediaSessionCompat: MediaSessionCompat
     private lateinit var mediaSessionConnector: MediaSessionConnector
+
+    var isForegroundService = false
 
     companion object {
         var curSongDuration = 0L
